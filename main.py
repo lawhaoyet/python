@@ -279,5 +279,5 @@ async def give(ctx, member: discord.Member, amount=None):
 async def hi(ctx):
     await ctx.send("hi")
 
-token = os.environ.get("ODkwNDIxNjU4Nzk0NDYzMjY0.YUvjyg.mdRXQxT60LS_zWna2sP2KpRJ6CA")
+token = os.environ.get("ODkwNDIxNjU4Nzk0NDYzMjY0.YUvjyg.bpLyuvD-lI6GvAnd1zziemr2LsY")
 client.run(os.getenv('token'))
